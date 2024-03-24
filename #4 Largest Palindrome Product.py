@@ -11,6 +11,6 @@ for i in range(999, 99, -1):
 		if i * j < lpp:	break
 
 		if check_palindrome(i * j):
-			lpp = max(lpp, i * j)
+			lpp = i * j
 
 print(lpp)
